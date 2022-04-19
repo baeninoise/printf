@@ -8,12 +8,6 @@
 #include <unistd.h>
 #include <limits.h>
 
-/**
- * struct prin - structure that contain flag and funtion
- * @flag: character that identify funtion
- * @fn: pointer to funtion
- */
-
 typedef struct prin
 {
 	char flag;
