@@ -9,7 +9,7 @@
  * _itoa - function
  * @i: the number
  * @strout: the chaine
- * @: the number
+ * @base: the number's base
  *
  * Return: Always 0
  */
