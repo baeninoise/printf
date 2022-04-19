@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * str_int - prints a integer
  * @argu: list of arguments
