@@ -20,14 +20,14 @@
  * Return: Always 0
  */
 
-int _printf(char * format, ...)
+int _printf(const char *format, ...)
 {
 	va_list vl;
 	int i = 0, j=0;
 	char buff[100]={0}, tmp[20];
-	char * str_arg;
+	char *str_arg;
 
-	va_start( vl, format );
+	va_start(vl, format);
 	while (format && format[i])
 	{
 		if(format[i] == '%')
