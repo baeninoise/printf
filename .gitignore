@@ -1,0 +1,13 @@
+# Emacs backup
+
+*~
+
+# executables
+
+*main
+
+*.out
+
+# main files
+
+*main.c
